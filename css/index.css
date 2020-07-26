@@ -1,0 +1,120 @@
+body{
+    background-color: var(--grey-lighten-4);
+}
+/*Nota importante
+	Una solución para realizar un carousel de manera correcta: 
+	-Se quitan las etiquetas img y se cambian por div
+	-Se añaden id's independientes
+	-Se añade el siguiente css para cada una
+*/
+#imgRes1{
+	background: url("../img/carousel1.jpg");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    max-height: 500px;
+}
+#imgRes2{
+	background: url("../img/carousel2.jpg");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    max-height: 500px;
+}
+#imgRes3{
+	background: url("../img/carousel3.jpg");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    max-height: 500px;
+}
+
+/*colores y eventos de links de navbar*/
+.nav-link{
+    color:  var(--white) !important;
+}
+a.nav-link:hover{
+    color: var(--grey-darken-2) !important;
+}
+
+/*color de icono de nav responsive*/
+.navbar-toggler{ /*desde inicio*/
+    color: var(--teal-lighten-5) !important;
+    border-color: var(--teal-lighten-5) !important;
+}
+
+.bg-scroll{ /*background cuando se hace scroll hacia abajo*/
+    background: var(--grey-darken-4);
+}
+
+.dropdown-menu{
+    /*color: var(--grey-lighten-5);*/
+    background-color: var(--grey-darken-3);
+}
+.dropdown-item{
+    color: var(--white);
+}
+.dropdown-item:hover{
+    color: var(--grey-darken-2) !important;
+    background-color: var(--grey-darken-3) !important;
+}
+
+/*CSS para las caracteristicas del sitio web*/
+.features{
+    padding: 50px;
+}
+i.iconFeature{
+    color: var(--blue-grey-darken-3);
+    font-size: 3rem !important;
+}
+.titleFeature{
+    margin-top: 20px;
+}
+
+/*Contenido de imágenes contenido medio*/
+#imgContent1{
+    background: url("../img/content1.jpg");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    max-height: 300px;
+}
+#imgContent2{
+    background: url("../img/content2.jpg");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    max-height: 300px;
+}
+#imgContent3{
+    background: url("../img/content3.jpg");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    max-height: 600px;
+}
+#imgContent4{
+    background: url("../img/content4.png");
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    max-height: 400px;
+}
+
+
+.myParallax{
+    /* The image used */
+      background-image: url('../img/content6.png');
+
+      /* Full height */
+      height: 100%; 
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+@media (max-width: 576px){
+    margin-top: 25px;
+}
