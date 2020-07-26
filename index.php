@@ -19,7 +19,7 @@
 	<!--Navbar Section-->
 	<nav class="navbar navbar-expand-md navbar-dark bg-transparent fixed-top" id="myNavBar">
 	  	<a class="navbar-brand" href="#">
-	    	<img class="navbar-brand text-white d-flex justify-content-sm-center" src="https://img.pngio.com/images-and-videos-amazoncom-inc-press-room-amazon-prime-logo-png-4000_2286.png" width="55px" height="35px">
+	    	<img class="navbar-brand text-white d-flex justify-content-sm-center" src="img/content5.png" height="45px">
 	    </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 		  	<i class="material-icons">menu</i>
@@ -146,7 +146,7 @@
 				</div>	
 					
 				<div class="row titleFeature">
-					<h5>Aumento</h5>
+					<h5>Fotografía</h5>
 				</div>
 				<div class="row">
 					<p class="text-justify">Este es el primer párrafo de prueba para la carecterística número uno</p>
@@ -158,7 +158,7 @@
 				</div>	
 					
 				<div class="row titleFeature">
-					<h5>Aumento</h5>
+					<h5>Infinito</h5>
 				</div>
 				<div class="row">
 					<p class="text-justify">Este es el primer párrafo de prueba para la carecterística número uno</p>
@@ -170,7 +170,7 @@
 				</div>	
 					
 				<div class="row titleFeature">
-					<h5>Aumento</h5>
+					<h5>Álbum</h5>
 				</div>
 				<div class="row">
 					<p class="text-justify">Este es el primer párrafo de prueba para la carecterística número uno</p>
@@ -188,7 +188,7 @@
 					<div id="imgContent1"  style="height: 300px"></div>
 					<div id="imgContent2"  style="height: 275px; margin-top: 25px;"></div>
 			</div>
-			<div class="col-12 col-md-6" media="(max-width: 576px)">
+			<div id="idContent2" class="col-12 col-md-6">
 					<div id="imgContent3"  style="height: 600px"></div>
 			</div>
 

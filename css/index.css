@@ -8,21 +8,21 @@ body{
 	-Se añade el siguiente css para cada una
 */
 #imgRes1{
-	background: url("../img/carousel1.jpg");
+	background: url("../img/carousel5.jpg");
     background-position: center;
     background-attachment: contain;
     background-size: cover;
     max-height: 500px;
 }
 #imgRes2{
-	background: url("../img/carousel2.jpg");
+	background: url("../img/carousel7.jpg");
     background-position: center;
     background-attachment: contain;
     background-size: cover;
     max-height: 500px;
 }
 #imgRes3{
-	background: url("../img/carousel3.jpg");
+	background: url("../img/carousel6.jpg");
     background-position: center;
     background-attachment: contain;
     background-size: cover;
@@ -87,14 +87,14 @@ i.iconFeature{
     max-height: 300px;
 }
 #imgContent3{
-    background: url("../img/content3.jpg");
+    background: url("../img/content8.jpg");
     background-position: center;
     background-attachment: contain;
     background-size: cover;
     max-height: 600px;
 }
 #imgContent4{
-    background: url("../img/content4.png");
+    background: url("../img/content12.jpg");
     background-position: center;
     background-attachment: contain;
     background-size: cover;
@@ -116,5 +116,7 @@ i.iconFeature{
       background-size: cover;
 }
 @media (max-width: 576px){
-    margin-top: 25px;
+    #idContent2{
+        margin-top: 25px;
+    }
 }
